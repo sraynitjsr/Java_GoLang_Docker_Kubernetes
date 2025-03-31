@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: java-config
+  namespace: ns-A
+data:
+  value.txt: "42"
